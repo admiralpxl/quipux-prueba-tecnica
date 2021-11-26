@@ -1,0 +1,30 @@
+.home {
+  display: grid;
+  padding: 8px;
+  text-align: center;
+}
+.home-input {
+  display: flex;
+  flex-direction: column;
+}
+.home-input-title {
+  font-size: 3.2rem;
+  color: #059ef4;
+  margin: 12px 0;
+}
+.home-input-paragrha {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: gray;
+}
+.home-card-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+@media (min-width: 980px) {
+  .home {
+    text-align: start;
+  }
+}

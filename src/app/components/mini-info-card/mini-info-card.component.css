@@ -1,0 +1,46 @@
+.mini-card-grid {
+  width: 100%;
+  max-width: 940px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 40px;
+}
+.mini-card {
+  width: 100%;
+  max-width: 300px;
+  justify-self: center;
+  height: auto;
+  max-height: 180px;
+  display: grid;
+  grid-gap: 8px;
+  justify-items: center;
+  text-align: center;
+}
+.mini-card-title {
+  margin: 4px;
+  font-size: 2.8rem;
+  color: #164e86;
+}
+.mini-card-description {
+  margin: 8px;
+  font-size: 1.8rem;
+}
+.mini-card-button {
+  border: 1px solid #49df53;
+  outline: none;
+  background-color: transparent;
+  color: #49df53;
+  width: 150px;
+  height: 40px;
+  font-size: 1.8rem;
+  border-radius: 5px;
+}
+@media (min-width: 940px) {
+  .mini-card {
+    justify-items: start;
+    text-align: start;
+  }
+}

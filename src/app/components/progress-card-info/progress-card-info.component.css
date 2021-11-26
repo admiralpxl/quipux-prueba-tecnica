@@ -1,0 +1,30 @@
+.progress-card-info {
+  width: 100%;
+  height: auto;
+  max-width: 480px;
+  display: grid;
+  border-left: 5px solid #1c4b76;
+  border-radius: 10px;
+  padding-top: 18px;
+  padding-left: 4px;
+}
+.progress-card-info__title {
+  margin: 0;
+  color: #059ef4;
+  font-size: 2.4rem;
+}
+.progress-card-info__content {
+  font-size: 1.6rem;
+  margin: 6px;
+  margin-bottom: 10px;
+}
+@media (min-width: 470px) {
+  .progress-card-info {
+    padding-left: 28px;
+    justify-content: start;
+  }
+  .progress-card-info__title,
+  .progress-card-info__content {
+    text-align: start;
+  }
+}

@@ -1,1 +1,9 @@
-<p>mini-info-card works!</p>
+<section class="mini-card-grid">
+  <article class="mini-card" *ngFor="let info of content">
+    <h3 class="mini-card-title">{{ info.titulo }}</h3>
+    <p class="mini-card-description text-primary">
+      {{ info.descripcion }}
+    </p>
+    <button class="mini-card-button">{{ info.accion }}</button>
+  </article>
+</section>

@@ -1,0 +1,38 @@
+.progress-bar-card {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  max-width: 340px;
+  height: 40px;
+}
+.progress-bar-card-control {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.progress {
+  width: 180px;
+  height: 25px;
+}
+.progress-bar-card-control__button {
+  width: 35px;
+  height: 35px;
+  font-size: 1.8rem;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: gray;
+  outline: none;
+  border: none;
+}
+.progress-bar-card-control__info {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: lighter;
+}
+.progress-bar-card-control__info span {
+  color: #059ef4;
+}

@@ -1,1 +1,14 @@
-<p>input-search works!</p>
+<section class="search">
+  <select class="search-select">
+    <option *ngFor="let options of searchOptions">{{ options }}</option>
+  </select>
+  <input
+    class="search-input"
+    type="text"
+    placeholder="¿Qué servicios quieres consultar?"
+  />
+  <button class="search-button">
+    <span class="fas fa-search"></span>
+    Buscar
+  </button>
+</section>
