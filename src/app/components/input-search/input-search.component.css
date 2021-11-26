@@ -19,7 +19,7 @@
 }
 .search-input {
   width: 100%;
-  max-width: 450px;
+  max-width: 380px;
   height: 45px;
   text-align: center;
   outline: none;
@@ -47,6 +47,7 @@
     width: 830px;
     gap: 0;
     border-radius: 5px;
+    justify-content: start;
   }
   .search-input {
     border: none;
