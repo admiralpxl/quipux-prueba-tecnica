@@ -7,7 +7,7 @@ import { ArticulosComponent } from './pages/articulos/articulos.component';
 
 const routes: Routes = [
   {
-    path: '/',
+    path: '',
     component: HomeComponent,
   },
   {
