@@ -13,6 +13,10 @@ import { ProgressCardInfoComponent } from './components/progress-card-info/progr
 import { MiniInfoCardComponent } from './components/mini-info-card/mini-info-card.component';
 import { InputSearchComponent } from './components/input-search/input-search.component';
 import { HomeCardComponent } from './components/home-card/home-card.component';
+import { SlideMenuComponent } from './components/slide-menu/slide-menu.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { CardArticleComponent } from './components/card-article/card-article.component';
+import { InfoDetailCardComponent } from './components/info-detail-card/info-detail-card.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { HomeCardComponent } from './components/home-card/home-card.component';
     ProgressCardInfoComponent,
     MiniInfoCardComponent,
     InputSearchComponent,
-    HomeCardComponent
+    HomeCardComponent,
+    SlideMenuComponent,
+    SliderComponent,
+    CardArticleComponent,
+    InfoDetailCardComponent
   ],
   imports: [
     BrowserModule,

@@ -9,6 +9,8 @@
   margin-top: 40px;
   background-color: #fff;
   padding: 8px;
+  box-shadow: 0px 0px 16px 0px black;
+  border-radius: 10px;
 }
 .mini-card {
   width: 100%;

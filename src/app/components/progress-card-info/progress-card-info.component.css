@@ -7,6 +7,7 @@
   border-radius: 10px;
   padding-top: 18px;
   padding-left: 4px;
+  box-shadow: 0px 0px 16px 0px black;
 }
 .progress-card-info__title {
   margin: 0;

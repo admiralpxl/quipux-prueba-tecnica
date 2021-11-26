@@ -1,0 +1,26 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+}
+.article-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  max-width: 980px;
+  background-color: white;
+  padding: 8px;
+}
+@media (min-width: 980px) {
+  .article-grid {
+    overflow-y: scroll;
+    height: 320px;
+  }
+}

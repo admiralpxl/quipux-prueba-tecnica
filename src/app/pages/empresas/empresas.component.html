@@ -1,1 +1,15 @@
-<p>empresas works!</p>
+<section>
+  <app-info-detail-card></app-info-detail-card>
+  <section>
+    <app-slider></app-slider>
+    <section class="article-grid">
+      <app-card-article
+        *ngFor="let contenido of articulos"
+        img="{{ contenido.imagen }}"
+        title="{{ contenido.titulo }}"
+        description="{{ contenido.descripcion }}"
+      >
+      </app-card-article>
+    </section>
+  </section>
+</section>

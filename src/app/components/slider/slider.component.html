@@ -1,0 +1,20 @@
+<section class="slider">
+  <button
+    class="slider-button"
+    [disabled]="btnDisabledPrevius"
+    (click)="previus()"
+  >
+    <span class="fas fa-angle-left"></span>
+  </button>
+  <article
+    class="slider-image-grid"
+    *ngFor="let imagen of imagenes; let i = index"
+  >
+    <figure class="slider-image-size" *ngIf="imagen.id === counter">
+      <img [src]="imagen.url" alt="imagen" />
+    </figure>
+  </article>
+  <button class="slider-button" [disabled]="btnDisabledNext" (click)="next()">
+    <span class="fas fa-angle-right"></span>
+  </button>
+</section>
