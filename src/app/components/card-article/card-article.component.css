@@ -16,14 +16,15 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  margin-bottom: 4px;
 }
 .article-title {
-  font-size: 1.4rem;
+  font-size: 2.2rem;
   margin-top: 0;
   margin-bottom: 0.6rem;
 }
 .article-description {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   margin: 0;
 }
 @media (min-width: 1090px) {
