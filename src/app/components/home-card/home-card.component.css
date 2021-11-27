@@ -4,6 +4,7 @@
   max-width: 480px;
   display: grid;
   position: relative;
+  z-index: -1;
 }
 .home-card-image {
   width: 100%;
