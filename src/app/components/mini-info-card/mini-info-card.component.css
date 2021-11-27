@@ -6,9 +6,9 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 12px;
-  margin-top: 40px;
+  margin: 18px auto;
   background-color: #fff;
-  padding: 8px;
+  padding: 16px 8px;
   box-shadow: 0px 0px 16px 0px black;
   border-radius: 10px;
 }
@@ -41,8 +41,17 @@
   height: 40px;
   font-size: 1.8rem;
   border-radius: 5px;
+  transition: all ease 0.8s;
 }
-@media (min-width: 940px) {
+.mini-card-button:hover {
+  background-color: #49df53;
+  color: white;
+  cursor: pointer;
+}
+@media (min-width: 1250px) {
+  .mini-card-grid {
+    margin: 18px 0px 0px 0px;
+  }
   .mini-card {
     justify-items: start;
     text-align: start;

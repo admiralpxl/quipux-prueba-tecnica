@@ -19,6 +19,7 @@ import { CardArticleComponent } from './components/card-article/card-article.com
 import { InfoDetailCardComponent } from './components/info-detail-card/info-detail-card.component';
 import { InfoCompanyComponent } from './components/info-company/info-company.component';
 import { InfoCompanyContactComponent } from './components/info-company-contact/info-company-contact.component';
+import { UserLoginComponent } from './components/user-login/user-login.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { InfoCompanyContactComponent } from './components/info-company-contact/i
     CardArticleComponent,
     InfoDetailCardComponent,
     InfoCompanyComponent,
-    InfoCompanyContactComponent
+    InfoCompanyContactComponent,
+    UserLoginComponent
   ],
   imports: [
     BrowserModule,

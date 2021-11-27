@@ -23,11 +23,11 @@
   justify-content: center;
   margin-top: 20px;
 }
-@media (min-width: 1100px) {
+@media (min-width: 1250px) {
   .home {
     text-align: start;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    align-items: end;
     padding-left: 50px;
   }
 }

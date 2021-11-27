@@ -7,6 +7,7 @@
   justify-content: center;
   justify-self: center;
   gap: 8px;
+  margin: auto;
 }
 .search-select {
   height: 45px;
@@ -37,13 +38,23 @@
   color: white;
   border: none;
   font-size: 1.8rem;
+  transition: all ease 0.8s;
+}
+.search-button:hover {
+  background-color: white;
+  color: #059ef4;
+  cursor: pointer;
+  border: 1px solid #059ef4;
 }
 @media (min-width: 730px) {
   .search-button {
-    width: 300px;
+    width: 200px;
+  }
+  .search-input {
+    text-align: start;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1250px) {
   .search {
     width: 830px;
     gap: 0;
@@ -57,7 +68,7 @@
     text-align: start;
   }
   .search-select {
-    width: 200px;
+    width: 180px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     text-align: start;

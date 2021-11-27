@@ -18,6 +18,14 @@
   border: none;
   outline: none;
   z-index: 2;
+  cursor: pointer;
+}
+.header-nav-button span {
+  transition: all ease 0.8s;
+}
+.header-nav-button span:hover {
+  color: #059ef4;
+  transform: rotate(180deg);
 }
 .header-nav-image {
   width: 220px;
@@ -26,14 +34,4 @@
 img {
   width: 100%;
   height: 100%;
-}
-.hide-mobile-menu {
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  background-color: yellowgreen;
-  z-index: 1;
-}
-.hide-mobile-menu ul {
-  z-index: 3;
 }
