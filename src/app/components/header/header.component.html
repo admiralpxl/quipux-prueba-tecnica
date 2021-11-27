@@ -2,16 +2,8 @@
   <button (click)="showMenu()" class="header-nav-button">
     <span class="fas fa-bars"></span>
   </button>
-  <article *ngIf="menuOn === true" class="hide-mobile-menu">
-    <ul>
-      <li>
-        <a routerLink="/empresas">Empresas</a>
-      </li>
-      <li>
-        <a routerLink="=/articulos"> Articulos</a>
-      </li>
-    </ul>
-  </article>
+  <app-slide-menu *ngIf="menuOn === true"></app-slide-menu>
+
   <figure class="header-nav-image">
     <img src="../../../assets//logo.png" alt="d" />
   </figure>
