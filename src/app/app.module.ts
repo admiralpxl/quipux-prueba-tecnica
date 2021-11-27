@@ -17,6 +17,8 @@ import { SlideMenuComponent } from './components/slide-menu/slide-menu.component
 import { SliderComponent } from './components/slider/slider.component';
 import { CardArticleComponent } from './components/card-article/card-article.component';
 import { InfoDetailCardComponent } from './components/info-detail-card/info-detail-card.component';
+import { InfoCompanyComponent } from './components/info-company/info-company.component';
+import { InfoCompanyContactComponent } from './components/info-company-contact/info-company-contact.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { InfoDetailCardComponent } from './components/info-detail-card/info-deta
     SlideMenuComponent,
     SliderComponent,
     CardArticleComponent,
-    InfoDetailCardComponent
+    InfoDetailCardComponent,
+    InfoCompanyComponent,
+    InfoCompanyContactComponent
   ],
   imports: [
     BrowserModule,

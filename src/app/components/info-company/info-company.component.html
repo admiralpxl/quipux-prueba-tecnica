@@ -1,0 +1,26 @@
+<section class="company-info-card">
+  <h2>INFORMACIÓN DE LA EMPRESA</h2>
+  <article>
+    <h3>Nombre</h3>
+    <p>{{ companyInfo.nombre }}</p>
+  </article>
+  <article>
+    <h3>Fecha de creación</h3>
+    <p>{{ companyInfo.fecha }}</p>
+  </article>
+  <article>
+    <h3>Dirección</h3>
+    <p>{{ companyInfo.direccion }}</p>
+  </article>
+  <article>
+    <h3>Numeros de telefonos</h3>
+    <p>Fijo</p>
+    <p>{{ companyInfo.tlfFijo }}</p>
+    <p>Fax</p>
+    <p>{{ companyInfo.fax }}</p>
+  </article>
+  <article>
+    <h3>Sitio Web</h3>
+    <a href="{{ companyInfo.web }}">{{ companyInfo.web }}</a>
+  </article>
+</section>
