@@ -2,9 +2,10 @@
   <button (click)="showMenu()" class="header-nav-button">
     <span class="fas fa-bars"></span>
   </button>
-  <app-slide-menu *ngIf="menuOn === true"></app-slide-menu>
-
   <figure class="header-nav-image">
     <a routerLink="/"> <img src="../../../assets//logo.png" alt="d" /> </a>
   </figure>
+
+  <app-user-login class="user-login"> </app-user-login>
 </nav>
+<app-slide-menu *ngIf="menuOn === true"> </app-slide-menu>
